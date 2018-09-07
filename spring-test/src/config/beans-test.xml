@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="helloWorld" class="com.test.HelloWorld">
+		<property name="message" value="Hello World!" />
+		<property name="date" value="20180907" />
+	</bean>
+
+	<bean id="beanTest" class="com.test.BeanTest">
+		<property name="name" value="Andy" />
+		<property name="id" value="123456" />
+	</bean>
+
+	<bean id="beanTestExt" class="com.test.BeanTestExt">
+		<property name="name" value="Vova" />
+		<property name="surname" value="Krut" />
+		<property name="id" value="4444" />
+	</bean>
+
+
+</beans>
